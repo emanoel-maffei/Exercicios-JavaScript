@@ -32,5 +32,5 @@ console.log(`Total de Despesas: R$ ${totalDespesas}`)
 let numeroDeCategorias = 7
 let mediaDespesas = totalDespesas / numeroDeCategorias;
 
-console.log(`Média de Despesas por Categoria: R$ ${mediaDespesas.toFixed(2)}`) // .toFixed(2) formata para 2 casas decimais
+console.log(`Média de Despesas por Categoria: R$ ${mediaDespesas.toFixed(2)}`) // .toFixed(2) formata para 2 casas decimais, ele arredonda para o número mais próximo, se maior que 5, arredonda pra cima
 console.log("\n")
