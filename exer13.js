@@ -8,3 +8,22 @@
     - Imprima no terminal o array completo para confirmar se o novo item foi adicionado corretamente.
     - Após finalisar, execute seu código no Node.js e veja o resultado.
 */
+
+/* parte 1/2 */
+let movies = [
+    "Rayman", 
+    "LEGO® Jurassic World", 
+    "Lego Indiana Jones: The Original Adventures", 
+    "LEGO® MARVEL's Avengers"
+];
+
+/* parte 3 */
+console.log("2° Elemento:", movies[1]); /* mostrando 2° elemento */
+
+/* parte 4 */
+movies.push("Minecraft"); /* incrementando um novo elemento */
+
+/* parte 5 */ 
+console.log("Array:", movies); /* mostrando o vetor */
+
+/* parte 6 é apenas executar no terminal */
